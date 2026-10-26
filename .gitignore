@@ -1,0 +1,31 @@
+# 模型权重
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pkl
+*.bin
+
+# 实验结果和训练输出
+result/
+outputs/
+checkpoints/
+runs/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 日志
+*.log
+
+# 数据集和数组
+data/
+dataset/
+*.npy
+*.npz
+
+# 编辑器和系统文件
+.vscode/
+.idea/
+.DS_Store
