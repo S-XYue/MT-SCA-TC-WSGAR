@@ -1,28 +1,36 @@
-# Detector-Free Weakly Supervised Group Activity Recognition
+# Exploring Channel and Temporal Attention Constraints for Weakly Supervised Group Activity Recognition
 
-### [Dongkeun Kim](https://dk-kim.github.io/), [Jinsung Lee](https://cvlab.postech.ac.kr/lab/members.php), [Minsu Cho](https://cvlab.postech.ac.kr/~mcho/), [Suha Kwak](https://suhakwak.github.io/)
+### Ye Xiang, Xinyue Sun, Ruixuan Ding, Lifang Wu
 
-### [Project Page](http://cvlab.postech.ac.kr/research/DFWSGAR/) | [Paper](https://arxiv.org/abs/2204.02139)
+Beijing University of Technology
 
 ## Overview
-This work introduces a detector-free approach for weakly supervised group activity recognition. 
 
+This repository provides the implementation of
+"Exploring Channel and Temporal Attention Constraints for Weakly Supervised
+Group Activity Recognition."
 
-This repository also contains the implementation used for *Exploring Channel and Temporal Attention Constraints for Weakly Supervised Group Activity Recognition*. The current release provides the Volleyball and NBA training and evaluation paths. Dataset files and model weights are not redistributed.
+The proposed framework introduces a Multi-Threshold Sparse Channel Attention
+Module to suppress irrelevant visual information and select discriminative
+channel features. It further employs a Temporal Constraint Mechanism and
+Temporal Constraint Loss to guide temporal attention toward the ordered
+occurrence of sub-activities.
+
+The implementation supports experiments on the Volleyball and NBA datasets.
+Dataset files and pretrained model weights are not redistributed.
 
 ## Citation
-If you find our code or paper useful, please consider citing our paper:
 
-    @misc{Xiang2026ChannelTemporal,
+Publication information will be updated after the paper is published.
+
+    @misc{xiang_exploring_channel_temporal,
       title  = {Exploring Channel and Temporal Attention Constraints for Weakly Supervised Group Activity Recognition},
       author = {Xiang, Ye and Sun, Xinyue and Ding, Ruixuan and Wu, Lifang},
-      year   = {2026},
-      note   = {Manuscript under review}
+      note   = {Manuscript}
     }
 
 ## Requirements
 
-- Ubuntu 16.04
 - Python 3.8.5
 - CUDA 11.0
 - PyTorch 1.7.1
@@ -100,5 +108,14 @@ environment.yml <br/>
 
 
 ## Acknowledgement
-This work was supported by the NRF grant and the IITP grant funded by Ministry of Science and ICT, Korea (NRF-2021R1A2C3012728, NRF-2018R1A5A1060031, IITP-2020-0-00842, IITP-2021-0-00537, No. 2019-0-01906 Artificial Intelligence Graduate School Program-POSTECH). 
 
+This work was supported by the National Natural Science Foundation of China
+(Grant No. 62106011).
+
+## Codebase Acknowledgement
+
+This codebase is built upon Detector-Free Weakly Supervised Group Activity
+Recognition (DFWSGAR) by Dongkeun Kim, Jinsung Lee, Minsu Cho, and Suha Kwak.
+
+- Original project: http://cvlab.postech.ac.kr/research/DFWSGAR/
+- Original paper: https://arxiv.org/abs/2204.02139
