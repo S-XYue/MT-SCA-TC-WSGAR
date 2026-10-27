@@ -1,21 +1,5 @@
 # Exploring Channel and Temporal Attention Constraints for Weakly Supervised Group Activity Recognition
 
-
-## Overview
-
-This repository provides the implementation of
-"Exploring Channel and Temporal Attention Constraints for Weakly Supervised
-Group Activity Recognition."
-
-The proposed framework introduces a Multi-Threshold Sparse Channel Attention
-Module to suppress irrelevant visual information and select discriminative
-channel features. It further employs a Temporal Constraint Mechanism and
-Temporal Constraint Loss to guide temporal attention toward the ordered
-occurrence of sub-activities.
-
-The implementation supports experiments on the Volleyball and NBA datasets.
-Dataset files and pretrained model weights are not redistributed.
-
 ## Citation
 
 Publication information will be updated after the paper is published.
@@ -39,16 +23,6 @@ Publication information will be updated after the paper is published.
     
 ## Install additional package
     sh scripts/setup.sh
-    
-  
-
-## Trained weights
-
-Pretrained weights are not included in this repository. Replace `your/checkpoint/path/model.pth` in the evaluation scripts with a local checkpoint.
-
-If an official checkpoint URL and SHA-256 checksum are available, use:
-
-    bash scripts/download_checkpoints.sh your/checkpoint/url your/checkpoint/sha256 checkpoints model.pth
 
 
 ## File structure
@@ -69,15 +43,3 @@ README.md <br/>
 environment.yml <br/>
 
 
-## Acknowledgement
-
-This work was supported by the National Natural Science Foundation of China
-(Grant No. 62106011).
-
-## Codebase Acknowledgement
-
-This codebase is built upon Detector-Free Weakly Supervised Group Activity
-Recognition (DFWSGAR) by Dongkeun Kim, Jinsung Lee, Minsu Cho, and Suha Kwak.
-
-- Original project: http://cvlab.postech.ac.kr/research/DFWSGAR/
-- Original paper: https://arxiv.org/abs/2204.02139
