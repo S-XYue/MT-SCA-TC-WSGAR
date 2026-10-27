@@ -1,8 +1,5 @@
 # Exploring Channel and Temporal Attention Constraints for Weakly Supervised Group Activity Recognition
 
-### Ye Xiang, Xinyue Sun, Ruixuan Ding, Lifang Wu
-
-Beijing University of Technology
 
 ## Overview
 
@@ -25,7 +22,7 @@ Publication information will be updated after the paper is published.
 
     @misc{xiang_exploring_channel_temporal,
       title  = {Exploring Channel and Temporal Attention Constraints for Weakly Supervised Group Activity Recognition},
-      author = {Xiang, Ye and Sun, Xinyue and Ding, Ruixuan and Wu, Lifang},
+      author = {  },
       note   = {Manuscript}
     }
 
@@ -62,29 +59,6 @@ If an official checkpoint URL and SHA-256 checksum are available, use:
 
     bash scripts/download_checkpoints.sh your/checkpoint/url your/checkpoint/sha256 checkpoints model.pth
 
-## Run test scripts
-
-Before running, replace `your/data/path/` and `your/checkpoint/path/model.pth` in the corresponding script.
-
-- Volleyball Dataset (Original 8 class classification)
-
-    sh scripts/test_volleyball.sh
-
-- NBA Dataset
-
-    sh scripts/test_nba.sh
-
-## Run train scripts
-
-Before running, replace `your/data/path/` in the corresponding script.
-
-- Volleyball Dataset (Original 8 class classification)
-
-    sh scripts/train_volleyball.sh
-
-- NBA Dataset
-
-    sh scripts/train_nba.sh
 
 ## File structure
 
