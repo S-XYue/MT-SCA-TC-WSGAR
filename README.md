@@ -23,23 +23,3 @@ Publication information will be updated after the paper is published.
     
 ## Install additional package
     sh scripts/setup.sh
-
-
-## File structure
-
-│── Dataset/ <br/>
-│   │── volleyball/ <br/>
-│   │    └── videos/ <br/>
-│   │── NBA_dataset/ <br/>
-│   │    └── videos/ <br/>
-│   │    └── train_video_ids <br/>
-│   │    └── test_video_ids <br/>
-│── scripts/ <br/>
-│── dataloader/ <br/>
-│── models/ <br/>
-│── util/ <br/>
-train.py <br/>
-README.md <br/> 
-environment.yml <br/>
-
-
