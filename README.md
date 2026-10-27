@@ -100,9 +100,6 @@ Before running, replace `your/data/path/` in the corresponding script.
 │── models/ <br/>
 │── util/ <br/>
 train.py <br/>
-train_nba_now.py <br/>
-test.py <br/>
-test_NBA.py <br/>
 README.md <br/> 
 environment.yml <br/>
 
