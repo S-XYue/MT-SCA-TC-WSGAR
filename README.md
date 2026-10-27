@@ -40,15 +40,6 @@ Publication information will be updated after the paper is published.
 ## Install additional package
     sh scripts/setup.sh
     
-## Download dataset
-- Volleyball dataset <br/>
-Download Volleyball dataset from:   <br/> 
-https://drive.google.com/file/d/1DaUE3ODT_H5mBFi8JzOVBNzVldxfbPbX/view?usp=sharing      
-Dataset should be located following the file structure described below. <br/>
-
-- NBA dataset <br/>
-The dataset is available upon request to the authors of 
-  "Social Adaptive Module for Weakly-supervised Group Activity Recognition (ECCV 2020)". 
   
 
 ## Trained weights
